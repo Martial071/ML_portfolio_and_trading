@@ -1,0 +1,13 @@
+# secrets: your LLM API key for step 2 must never be pushed
+.env
+*.key
+
+# Python / Jupyter clutter
+__pycache__/
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# large or raw data
+data/raw/
+*.parquet
